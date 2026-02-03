@@ -2,18 +2,29 @@
 <html lang="hr">
 <head>
   <meta charset="UTF-8">
-<title>O nama | Iskusni keramičar Zagreb</title>
+  <title>O nama | Iskusni keramičar Zagreb</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Iskusni keramičar u Zagrebu s dugogodišnjim iskustvom u keramičarskim radovima i renovacijama kupaonica.">
+  <meta name="description" content="Iskusni keramičar u Zagrebu s dugogodišnjim iskustvom u keramičarskim radovima i renovacijama kupaonica.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
+  <link rel="apple-touch-icon" href="images/logo.svg">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<header class="navbar">
-  <div class="nav-container">
-    <div class="logo">Keramičar Zagreb</div>
 
-    <button class="hamburger" id="hamburger">
-      ☰
+<!-- NAVBAR -->
+<header class="navbar navbar-compact">
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="Keramičar Zagreb Logo" class="logo-img">
+      <span class="logo-text">Keramičar Zagreb</span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Otvori izbornik">
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
 
     <nav id="nav-menu">
@@ -26,29 +37,146 @@
       </ul>
     </nav>
 
-    <a href="tel:+385911234567" class="nav-call">📞 Nazovi</a>
+    <a href="tel:+385911234567" class="nav-call"><i class="fas fa-phone"></i> Nazovi</a>
   </div>
 </header>
 
 
-<section class="section">
-  <h1>O nama</h1>
-  <p>
-    Naša tvrtka bavi se profesionalnim keramičarskim radovima na području Zagreba i okolice.
-    Dugogodišnje iskustvo i precizan rad omogućuju nam da svakom projektu pristupimo
-    odgovorno i kvalitetno.
-  </p>
-
-  <p>
-    Specijalizirani smo za postavljanje keramičkih pločica, renovacije kupaonica
-    te razne sitne kućne popravke. Cilj nam je zadovoljstvo klijenata i dugotrajna rješenja.
-  </p>
+<!-- PAGE HERO -->
+<section class="page-hero page-hero-image" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(255,122,0,0.3)), url('images/keramicar1.jpg');">
+  <div class="page-hero-content fade-in">
+    <span class="hero-badge"><i class="fas fa-users"></i> Upoznajte nas</span>
+    <h1>O nama</h1>
+    <p>Profesionalni keramičarski tim s dugogodišnjim iskustvom</p>
+  </div>
 </section>
 
-<footer class="footer">
-  <p>📞 +385 91 123 4567 | ✉️ info@keramicar-zagreb.hr</p>
-</footer>
-<script src="js/script.js"></script>
 
+<!-- INTRO SECTION -->
+<section class="section-split">
+  <div class="split-content fade-in-left">
+    <span class="section-tag">Tko smo mi</span>
+    <h2>Profesionalni keramičari</h2>
+    <p>
+      Naša tvrtka bavi se profesionalnim keramičarskim radovima na području Zagreba i okolice.
+      Dugogodišnje iskustvo i precizan rad omogućuju nam da svakom projektu pristupimo
+      odgovorno i kvalitetno.
+    </p>
+    <p>
+      Specijalizirani smo za postavljanje keramičkih pločica, renovacije kupaonica
+      te razne sitne kućne popravke. Cilj nam je zadovoljstvo klijenata i dugotrajna rješenja.
+    </p>
+  </div>
+  <div class="split-image fade-in-right">
+    <div class="image-frame">
+      <img src="images/keramicar2.jpg" alt="Keramičarski radovi Zagreb">
+      <div class="image-accent"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- VRIJEDNOSTI -->
+<section class="features-section">
+  <div class="features-header fade-in">
+    <span class="section-tag">Naše vrijednosti</span>
+    <h2>Što nas čini posebnima</h2>
+  </div>
+  <div class="features-grid">
+    <div class="feature-card fade-in-up">
+      <div class="feature-icon"><i class="fas fa-heart"></i></div>
+      <h3>Strast za poslom</h3>
+      <p>Volimo što radimo i to se vidi u svakom projektu</p>
+    </div>
+    <div class="feature-card fade-in-up">
+      <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+      <h3>Poštenje</h3>
+      <p>Transparentne cijene i iskren pristup klijentima</p>
+    </div>
+    <div class="feature-card fade-in-up">
+      <div class="feature-icon"><i class="fas fa-tools"></i></div>
+      <h3>Stručnost</h3>
+      <p>Kontinuirano usavršavanje i praćenje trendova</p>
+    </div>
+    <div class="feature-card fade-in-up">
+      <div class="feature-icon"><i class="fas fa-thumbs-up"></i></div>
+      <h3>Kvaliteta</h3>
+      <p>Samo najbolji materijali i precizna izvedba</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- STATISTIKA -->
+<section class="stats-section">
+  <div class="stats-container">
+    <div class="stat-item fade-in-up">
+      <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+      <div class="stat-number" data-count="15">0</div>
+      <div class="stat-label">Godina iskustva</div>
+    </div>
+    <div class="stat-item fade-in-up">
+      <div class="stat-icon"><i class="fas fa-home"></i></div>
+      <div class="stat-number" data-count="500">0</div>
+      <div class="stat-label">Završenih projekata</div>
+    </div>
+    <div class="stat-item fade-in-up">
+      <div class="stat-icon"><i class="fas fa-smile"></i></div>
+      <div class="stat-number" data-count="100">0</div>
+      <div class="stat-label">% Zadovoljnih klijenata</div>
+    </div>
+    <div class="stat-item fade-in-up">
+      <div class="stat-icon"><i class="fas fa-award"></i></div>
+      <div class="stat-number" data-count="10">0</div>
+      <div class="stat-label">Nagrada i priznanja</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-content fade-in">
+    <h2>Želite raditi s nama?</h2>
+    <p>Kontaktirajte nas za besplatnu procjenu vašeg projekta</p>
+    <div class="cta-buttons">
+      <a href="tel:+385911234567" class="btn-call btn-large"><i class="fas fa-phone-alt"></i> Nazovi odmah</a>
+      <a href="kontakt.html" class="btn-secondary btn-large"><i class="fas fa-envelope"></i> Pošalji upit</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-brand">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Keramičar Zagreb Logo" class="logo-img">
+        <span class="logo-text">Keramičar Zagreb</span>
+      </div>
+      <p>Profesionalni keramičarski radovi u Zagrebu i okolici</p>
+    </div>
+    <div class="footer-contact">
+      <h4>Kontakt</h4>
+      <p><i class="fas fa-phone"></i> +385 91 123 4567</p>
+      <p><i class="fas fa-envelope"></i> info@keramicar-zagreb.hr</p>
+      <p><i class="fas fa-map-marker-alt"></i> Zagreb, Hrvatska</p>
+    </div>
+    <div class="footer-links">
+      <h4>Brzi linkovi</h4>
+      <ul>
+        <li><a href="usluge.html">Usluge</a></li>
+        <li><a href="cjenik.html">Cjenik</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Keramičar Zagreb. Sva prava pridržana.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>

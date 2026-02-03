@@ -2,23 +2,29 @@
 <html lang="hr">
 <head>
   <meta charset="UTF-8">
-
   <title>Cijene keramičarskih radova Zagreb | Keramičar Zagreb</title>
-
   <meta name="description" content="Cijene keramičarskih radova u Zagrebu. Informativni cjenik postavljanja pločica i renovacije kupaonica.">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
+  <link rel="apple-touch-icon" href="images/logo.svg">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
 
-<header class="navbar">
+<!-- NAVBAR -->
+<header class="navbar navbar-compact">
   <div class="nav-container">
-    <div class="logo">Keramičar Zagreb</div>
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="Keramičar Zagreb Logo" class="logo-img">
+      <span class="logo-text">Keramičar Zagreb</span>
+    </a>
 
-    <button class="hamburger" id="hamburger">
-      ☰
+    <button class="hamburger" id="hamburger" aria-label="Otvori izbornik">
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
 
     <nav id="nav-menu">
@@ -31,44 +37,182 @@
       </ul>
     </nav>
 
-    <a href="tel:+385911234567" class="nav-call">📞 Nazovi</a>
+    <a href="tel:+385911234567" class="nav-call"><i class="fas fa-phone"></i> Nazovi</a>
   </div>
 </header>
 
-<section class="section">
-  <h1>Cijene keramičarskih radova u Zagrebu</h1>
 
-  <p>
-    Cijene keramičarskih radova u Zagrebu ovise o vrsti posla, veličini
-    površine, vrsti pločica i stanju podloge. Svaki prostor je drugačiji,
-    stoga se cijene formiraju individualno.
-  </p>
-
-  <h2>Što utječe na cijenu postavljanja pločica?</h2>
-  <ul>
-    <li>Veličina i vrsta pločica</li>
-    <li>Stanje podloge</li>
-    <li>Kompleksnost prostora (kupaonica, kuhinja, terasa)</li>
-    <li>Dodatni radovi (niveliranje, sanacija)</li>
-  </ul>
-
-  <h2>Informativni raspon cijena</h2>
-  <p>
-    Za točnu cijenu postavljanja pločica ili renovacije kupaonice
-    potrebno je izvršiti pregled prostora ili razgovor s klijentom.
-  </p>
-
-  <p>
-    📞 <strong>Nazovite nas za besplatnu procjenu:</strong><br>
-    <a href="tel:+385911234567">+385 91 123 4567</a>
-  </p>
+<!-- PAGE HERO -->
+<section class="page-hero page-hero-image" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(255,122,0,0.3)), url('images/keramicar2.jpg');">
+  <div class="page-hero-content fade-in">
+    <span class="hero-badge"><i class="fas fa-euro-sign"></i> Transparentne cijene</span>
+    <h1>Cijene keramičarskih radova</h1>
+    <p>Informativni cjenik naših usluga u Zagrebu i okolici</p>
+  </div>
 </section>
 
 
-<footer class="footer">
-  <p>📞 +385 91 123 4567 | ✉️ info@keramicar-zagreb.hr</p>
-</footer>
-<script src="js/script.js"></script>
+<!-- INTRO -->
+<section class="content-intro fade-in">
+  <div class="intro-text">
+    <p>
+      Cijene keramičarskih radova u Zagrebu ovise o vrsti posla, veličini
+      površine, vrsti pločica i stanju podloge. Svaki prostor je drugačiji,
+      stoga se cijene formiraju individualno.
+    </p>
+  </div>
+</section>
 
+
+<!-- FAKTORI CIJENA -->
+<section class="pricing-factors">
+  <div class="pricing-header fade-in">
+    <span class="section-tag">Formiranje cijena</span>
+    <h2>Što utječe na cijenu postavljanja pločica?</h2>
+  </div>
+  <div class="factors-grid">
+    <div class="factor-card fade-in-up">
+      <div class="factor-icon"><i class="fas fa-th"></i></div>
+      <h3>Veličina i vrsta pločica</h3>
+      <p>Manje pločice zahtijevaju više vremena za postavljanje</p>
+    </div>
+    <div class="factor-card fade-in-up">
+      <div class="factor-icon"><i class="fas fa-layer-group"></i></div>
+      <h3>Stanje podloge</h3>
+      <p>Priprema neravne podloge zahtijeva dodatni rad</p>
+    </div>
+    <div class="factor-card fade-in-up">
+      <div class="factor-icon"><i class="fas fa-home"></i></div>
+      <h3>Kompleksnost prostora</h3>
+      <p>Kupaonica, kuhinja ili terasa - svaki prostor je specifičan</p>
+    </div>
+    <div class="factor-card fade-in-up">
+      <div class="factor-icon"><i class="fas fa-tools"></i></div>
+      <h3>Dodatni radovi</h3>
+      <p>Niveliranje, hidroizolacija, sanacija</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- CJENIK SEKCIJA -->
+<section class="pricing-section">
+  <div class="pricing-header fade-in">
+    <span class="section-tag">Informativni cjenik</span>
+    <h2>Orijentacijske cijene usluga</h2>
+  </div>
+  
+  <div class="pricing-cards">
+    <div class="pricing-card fade-in-up">
+      <div class="pricing-card-header">
+        <i class="fas fa-th-large"></i>
+        <h3>Postavljanje pločica</h3>
+      </div>
+      <div class="pricing-card-body">
+        <div class="price-range">
+          <span class="price-from">od</span>
+          <span class="price-amount">15€</span>
+          <span class="price-unit">/m²</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Zidne i podne pločice</li>
+          <li><i class="fas fa-check"></i> Fugiranje uključeno</li>
+          <li><i class="fas fa-check"></i> Čišćenje radnog prostora</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="pricing-card pricing-card-featured fade-in-up">
+      <div class="pricing-badge">Najpopularnije</div>
+      <div class="pricing-card-header">
+        <i class="fas fa-bath"></i>
+        <h3>Renovacija kupaonice</h3>
+      </div>
+      <div class="pricing-card-body">
+        <div class="price-range">
+          <span class="price-from">od</span>
+          <span class="price-amount">1500€</span>
+          <span class="price-unit">/komplet</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Uklanjanje starih pločica</li>
+          <li><i class="fas fa-check"></i> Priprema podloge</li>
+          <li><i class="fas fa-check"></i> Nove pločice + fugiranje</li>
+          <li><i class="fas fa-check"></i> Hidroizolacija</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="pricing-card fade-in-up">
+      <div class="pricing-card-header">
+        <i class="fas fa-wrench"></i>
+        <h3>Sitni popravci</h3>
+      </div>
+      <div class="pricing-card-body">
+        <div class="price-range">
+          <span class="price-from">od</span>
+          <span class="price-amount">50€</span>
+          <span class="price-unit">/usluga</span>
+        </div>
+        <ul class="pricing-features">
+          <li><i class="fas fa-check"></i> Montaža sanitarija</li>
+          <li><i class="fas fa-check"></i> Zamjena slavina</li>
+          <li><i class="fas fa-check"></i> Manji vodoinstalaterski radovi</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="pricing-note fade-in">
+    <i class="fas fa-info-circle"></i>
+    <p>Navedene cijene su orijentacijske. Za točnu cijenu potreban je pregled prostora ili razgovor s klijentom.</p>
+  </div>
+</section>
+
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-content fade-in">
+    <h2>Zatražite besplatnu procjenu</h2>
+    <p>Nazovite nas i dogovorite termin za besplatni pregled i ponudu</p>
+    <div class="cta-buttons">
+      <a href="tel:+385911234567" class="btn-call btn-large"><i class="fas fa-phone-alt"></i> +385 91 123 4567</a>
+      <a href="kontakt.html" class="btn-secondary btn-large"><i class="fas fa-envelope"></i> Pošalji upit</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-brand">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Keramičar Zagreb Logo" class="logo-img">
+        <span class="logo-text">Keramičar Zagreb</span>
+      </div>
+      <p>Profesionalni keramičarski radovi u Zagrebu i okolici</p>
+    </div>
+    <div class="footer-contact">
+      <h4>Kontakt</h4>
+      <p><i class="fas fa-phone"></i> +385 91 123 4567</p>
+      <p><i class="fas fa-envelope"></i> info@keramicar-zagreb.hr</p>
+      <p><i class="fas fa-map-marker-alt"></i> Zagreb, Hrvatska</p>
+    </div>
+    <div class="footer-links">
+      <h4>Brzi linkovi</h4>
+      <ul>
+        <li><a href="usluge.html">Usluge</a></li>
+        <li><a href="cjenik.html">Cjenik</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Keramičar Zagreb. Sva prava pridržana.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -2,18 +2,29 @@
 <html lang="hr">
 <head>
   <meta charset="UTF-8">
-<title>Keramičarske usluge Zagreb | Postavljanje pločica</title>
+  <title>Keramičarske usluge Zagreb | Postavljanje pločica</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Profesionalne keramičarske usluge u Zagrebu. Postavljanje pločica, renovacija kupaonica i sitni kućni popravci.">
+  <meta name="description" content="Profesionalne keramičarske usluge u Zagrebu. Postavljanje pločica, renovacija kupaonica i sitni kućni popravci.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
+  <link rel="apple-touch-icon" href="images/logo.svg">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<header class="navbar">
-  <div class="nav-container">
-    <div class="logo">Keramičar Zagreb</div>
 
-    <button class="hamburger" id="hamburger">
-      ☰
+<!-- NAVBAR -->
+<header class="navbar navbar-compact">
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="Keramičar Zagreb Logo" class="logo-img">
+      <span class="logo-text">Keramičar Zagreb</span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Otvori izbornik">
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
 
     <nav id="nav-menu">
@@ -26,65 +37,165 @@
       </ul>
     </nav>
 
-    <a href="tel:+385911234567" class="nav-call">📞 Nazovi</a>
+    <a href="tel:+385911234567" class="nav-call"><i class="fas fa-phone"></i> Nazovi</a>
   </div>
 </header>
 
-<section class="section">
-  <h1>Keramičarske usluge u Zagrebu</h1>
 
-  <p>
-    Nudimo profesionalne keramičarske usluge na području Zagreba i okolice.
-    Fokusirani smo na kvalitetno postavljanje pločica, renovacije kupaonica
-    te pouzdane sitne kućne popravke.
-  </p>
-
-  <h2>Postavljanje keramičkih pločica Zagreb</h2>
-  <p>
-    Izvodimo precizno i dugotrajno postavljanje keramičkih pločica u kupaonicama,
-    kuhinjama, hodnicima i na terasama. Radimo s različitim vrstama pločica
-    i prilagođavamo se prostoru i željama klijenata u Zagrebu.
-  </p>
-
-  <ul>
-    <li>Postavljanje zidnih i podnih pločica</li>
-    <li>Postavljanje pločica u kupaonicama i kuhinjama</li>
-    <li>Postavljanje pločica na terasama i balkonima</li>
-    <li>Precizno rezanje i fugiranje</li>
-  </ul>
-
-  <h2>Renovacija kupaonica Zagreb</h2>
-  <p>
-    Nudimo kompletnu renovaciju kupaonica u Zagrebu, uključujući uklanjanje
-    starih pločica, pripremu podloge i postavljanje novih keramičkih obloga.
-  </p>
-
-  <ul>
-    <li>Uklanjanje stare keramike</li>
-    <li>Priprema i niveliranje podloge</li>
-    <li>Postavljanje novih pločica</li>
-    <li>Fugiranje i završni radovi</li>
-  </ul>
-
-  <h2>Sitni kućni popravci Zagreb</h2>
-  <p>
-    Osim keramičarskih radova, nudimo i sitne kućne popravke na području Zagreba,
-    idealne za manje zahvate u stanu ili kući.
-  </p>
-
-  <ul>
-    <li>Montaža sanitarija</li>
-    <li>Zamjena slavina i sifona</li>
-    <li>Manji popravci zidova</li>
-    <li>Osnovni vodoinstalaterski radovi</li>
-  </ul>
+<!-- PAGE HERO -->
+<section class="page-hero page-hero-image" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(255,122,0,0.3)), url('images/keramicar2.webp');">
+  <div class="page-hero-content fade-in">
+    <span class="hero-badge"><i class="fas fa-th-large"></i> Naše usluge</span>
+    <h1>Keramičarske usluge u Zagrebu</h1>
+    <p>Profesionalno postavljanje pločica, renovacije i sitni kućni popravci</p>
+  </div>
 </section>
 
 
-<footer class="footer">
-  <p>📞 +385 91 123 4567 | ✉️ info@keramicar-zagreb.hr</p>
-</footer>
-<script src="js/script.js"></script>
+<!-- INTRO -->
+<section class="content-intro fade-in">
+  <div class="intro-text">
+    <p>
+      Nudimo profesionalne keramičarske usluge na području Zagreba i okolice.
+      Fokusirani smo na kvalitetno postavljanje pločica, renovacije kupaonica
+      te pouzdane sitne kućne popravke.
+    </p>
+  </div>
+</section>
 
+
+<!-- USLUGA 1 - PLOČICE -->
+<section class="section-split">
+  <div class="split-content fade-in-left">
+    <span class="section-tag">Usluga #1</span>
+    <h2>Postavljanje keramičkih pločica Zagreb</h2>
+    <p>
+      Izvodimo precizno i dugotrajno postavljanje keramičkih pločica u kupaonicama,
+      kuhinjama, hodnicima i na terasama. Radimo s različitim vrstama pločica
+      i prilagođavamo se prostoru i željama klijenata u Zagrebu.
+    </p>
+    <ul class="check-list">
+      <li><i class="fas fa-check-circle"></i> Postavljanje zidnih i podnih pločica</li>
+      <li><i class="fas fa-check-circle"></i> Postavljanje pločica u kupaonicama i kuhinjama</li>
+      <li><i class="fas fa-check-circle"></i> Postavljanje pločica na terasama i balkonima</li>
+      <li><i class="fas fa-check-circle"></i> Precizno rezanje i fugiranje</li>
+    </ul>
+    <a href="kontakt.html" class="btn-link"><i class="fas fa-arrow-right"></i> Zatraži ponudu</a>
+  </div>
+  <div class="split-image fade-in-right">
+    <div class="image-frame">
+      <img src="images/keramicar1.jpg" alt="Postavljanje keramičkih pločica u kupaonici Zagreb">
+      <div class="image-accent"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- USLUGA 2 - RENOVACIJA -->
+<section class="section-split section-split-reverse">
+  <div class="split-content fade-in-right">
+    <span class="section-tag">Usluga #2</span>
+    <h2>Renovacija kupaonica Zagreb</h2>
+    <p>
+      Nudimo kompletnu renovaciju kupaonica u Zagrebu, uključujući uklanjanje
+      starih pločica, pripremu podloge i postavljanje novih keramičkih obloga.
+    </p>
+    <ul class="check-list">
+      <li><i class="fas fa-check-circle"></i> Uklanjanje stare keramike</li>
+      <li><i class="fas fa-check-circle"></i> Priprema i niveliranje podloge</li>
+      <li><i class="fas fa-check-circle"></i> Postavljanje novih pločica</li>
+      <li><i class="fas fa-check-circle"></i> Fugiranje i završni radovi</li>
+    </ul>
+    <a href="kontakt.html" class="btn-link"><i class="fas fa-arrow-right"></i> Zatraži ponudu</a>
+  </div>
+  <div class="split-image fade-in-left">
+    <div class="image-frame image-frame-alt">
+      <img src="images/keramicar2.jpg" alt="Renovacija kupaonice Zagreb">
+      <div class="image-accent-alt"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- USLUGA 3 - KUĆNI POPRAVCI -->
+<section class="service-highlight">
+  <div class="service-highlight-content fade-in">
+    <div class="service-icon-large">
+      <i class="fas fa-wrench"></i>
+    </div>
+    <div class="service-text">
+      <span class="section-tag">Usluga #3</span>
+      <h2>Sitni kućni popravci Zagreb</h2>
+      <p>
+        Osim keramičarskih radova, nudimo i sitne kućne popravke na području Zagreba,
+        idealne za manje zahvate u stanu ili kući.
+      </p>
+    </div>
+  </div>
+  <div class="service-features-grid">
+    <div class="service-feature fade-in-up">
+      <i class="fas fa-toilet"></i>
+      <span>Montaža sanitarija</span>
+    </div>
+    <div class="service-feature fade-in-up">
+      <i class="fas fa-faucet"></i>
+      <span>Zamjena slavina i sifona</span>
+    </div>
+    <div class="service-feature fade-in-up">
+      <i class="fas fa-paint-roller"></i>
+      <span>Manji popravci zidova</span>
+    </div>
+    <div class="service-feature fade-in-up">
+      <i class="fas fa-water"></i>
+      <span>Osnovni vodoinstalaterski radovi</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-content fade-in">
+    <h2>Trebate neku od naših usluga?</h2>
+    <p>Kontaktirajte nas za besplatnu procjenu i savjetovanje</p>
+    <div class="cta-buttons">
+      <a href="tel:+385911234567" class="btn-call btn-large"><i class="fas fa-phone-alt"></i> Nazovi odmah</a>
+      <a href="cjenik.html" class="btn-secondary btn-large"><i class="fas fa-list-alt"></i> Pogledaj cjenik</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-brand">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Keramičar Zagreb Logo" class="logo-img">
+        <span class="logo-text">Keramičar Zagreb</span>
+      </div>
+      <p>Profesionalni keramičarski radovi u Zagrebu i okolici</p>
+    </div>
+    <div class="footer-contact">
+      <h4>Kontakt</h4>
+      <p><i class="fas fa-phone"></i> +385 91 123 4567</p>
+      <p><i class="fas fa-envelope"></i> info@keramicar-zagreb.hr</p>
+      <p><i class="fas fa-map-marker-alt"></i> Zagreb, Hrvatska</p>
+    </div>
+    <div class="footer-links">
+      <h4>Brzi linkovi</h4>
+      <ul>
+        <li><a href="usluge.html">Usluge</a></li>
+        <li><a href="cjenik.html">Cjenik</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Keramičar Zagreb. Sva prava pridržana.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
